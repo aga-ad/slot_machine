@@ -4,6 +4,9 @@
 #include <numeric>
 #include <iomanip>
 
+
+constexpr unsigned int Field::wins[3][8];
+
 Field::Field() {
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 5; j++) {
